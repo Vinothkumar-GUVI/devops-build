@@ -6,9 +6,11 @@
 "scripts": {
     "build": "react-scripts build"
 },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+ "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "5.0.0" // Ensure this line is present
+},
   "devDependencies": {},
   "keywords": [],
   "author": "Your Name",
