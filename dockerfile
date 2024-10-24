@@ -3,7 +3,7 @@ FROM node:16 as build
 WORKDIR /app
 RUN npm set registry https://registry.npmjs.org/
 COPY package.json package-lock.json ./
-RUN npm install --prefer-offline --no-audit --progress=false
+RUN npm ci --prefer-offline --no-audit --progress=false
 COPY . .
 RUN npm run build
 
