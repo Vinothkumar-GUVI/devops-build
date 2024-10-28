@@ -8,5 +8,5 @@ IMAGE_NAME="vinothkumar017/react-app"
 docker build -t $IMAGE_NAME:dev .
 
 # Push the image to Docker Hub (dev repo)
-docker push $IMAGE_NAME:dev
+# docker push $IMAGE_NAME:dev
 
